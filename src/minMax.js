@@ -4,6 +4,9 @@
  * @private
  * @param {Object[]} arry The array to sort.
  * @param {String} field The name of the property on which to sort.
+ * @param {Boolean} isDate is a flag (default "false") to get around the
+ * vagaries of object detection in javascript. (Just tell me if you 
+ * want to compare dates)
  * @returns {Object} Returns an object with "min" and "max" properties.
  */
  var minMax = function minMax(arry, field, isDate = false) {
