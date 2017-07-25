@@ -4,7 +4,8 @@
   "description": "This is another in the ever expanding universe of javascript templates/blueprints/scaffolding/yadda yadda.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "webpack-dev-server",
+    "test": "mocha --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -51,6 +52,7 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "mocha": "^3.4.2",
+    "mochawesome": "^2.3.0",
     "postcss-loader": "^2.0.6",
     "react-hot-loader": "^1.3.1",
     "url-loader": "^0.5.9",

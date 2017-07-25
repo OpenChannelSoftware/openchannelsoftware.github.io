@@ -34,7 +34,7 @@ $ npm install --save-dev css-loader file-loader postcss-loader react-hot-loader 
 
 $ npm install --save ajv d3
 
-$ npm install --save-dev mocha chai
+$ npm install --save-dev mocha chai mochawesome
 
 ```
 
