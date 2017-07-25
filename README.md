@@ -20,6 +20,8 @@ $ npm install --save react react-dom react-bootstrap bootstrap@4.0.0-alpha.6
 
 $ npm install --save-dev css-loader file-loader postcss-loader react-hot-loader url-loader react-hot-loader
 
-npm install --save ajv d3
+$ npm install --save ajv d3
+
+$ npm install --save-dev mocha chai
 
 ```
