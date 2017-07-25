@@ -45,6 +45,13 @@ This section describes branches of the repository that describe milestones in bu
 ### 01: Testing
 I'm always saying that we I should do more automated testing, so here it is. The first piece before we start any UI or fancy stuff is to test the testing framework. For this template, I'm using Mocha with Chai and this branch is the output of that.
 
+### 02: Webpack/Babel (TODO)
+
+### 03: React/Bootstrap (TODO)
+
+### 04: Lodash (TODO)
+
+### 05: D3 (TODO)
 
 
 
