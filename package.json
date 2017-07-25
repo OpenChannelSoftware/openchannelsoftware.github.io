@@ -4,7 +4,7 @@
   "description": "This is another in the ever expanding universe of javascript templates/blueprints/scaffolding/yadda yadda.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -45,10 +45,12 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-runtime": "^6.23.0",
+    "chai": "^4.1.0",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
+    "mocha": "^3.4.2",
     "postcss-loader": "^2.0.6",
     "react-hot-loader": "^1.3.1",
     "url-loader": "^0.5.9",
