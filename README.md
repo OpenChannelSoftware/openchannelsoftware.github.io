@@ -47,9 +47,14 @@ I'm always saying that we I should do more automated testing, so here it is. The
 
 There is one series of tests in `test/test.js`. It's intended to exercise the functional minMax implementation in `src/`. The idea is that minMax will get the objects with the minMax values based on a specific field. This was supposed to deal with getting the earliest and latest dates in an array of objects (so that we can set the scale of an axis in a graph).
 
-### 02: Webpack/Babel (TODO)
+### 02: Webpack/Babel 
+This section sets up the build tools to create required index.html and bundle.js in the dist directory. After this section is complete, you can run the embedded webserver by calling `$ npm start` and then changes in the source code will be continuously built and displayed by accessing the page served on `http://127.0.0.1:8080/`. 
 
-### 03: React/Bootstrap (TODO)
+This is obviously the most basic webpack and babel setup. Building CSS from SCSS is the next step so components like Bootstrap can be customized, but we'll leave that for a later TODO.
+
+### 03: React/Bootstrap
+
+This section sets up the [Reactjs] view framework for displaying content and the [Bootstrap] CSS framework for styling. react-bootstrap is also used for easier styling of React elements.
 
 ### 04: Lodash (TODO)
 
