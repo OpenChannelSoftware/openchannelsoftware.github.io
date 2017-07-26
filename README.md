@@ -34,7 +34,7 @@ $ npm install --save-dev css-loader file-loader postcss-loader react-hot-loader 
 
 $ npm install --save ajv d3
 
-$ npm install --save-dev mocha chai
+$ npm install --save-dev mocha chai mochawesome
 
 ```
 
@@ -71,6 +71,7 @@ There is one series of tests in `test/test.js`. It's intended to exercise the fu
 * [D3]
 * [Mocha]
 * [Chai]
+* [Mochawesome]
 
 
 ## References
@@ -97,3 +98,4 @@ Thank you to the following sites that helped me create the content for this temp
 [Simple React, Webpack, Babel Starter Kit]: https://github.com/alicoding/react-webpack-babel
 [Mocha]: https://mochajs.org/
 [Chai]: http://chaijs.com/
+[Mochawesome]: https://www.npmjs.com/package/mochawesome
