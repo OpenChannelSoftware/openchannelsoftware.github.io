@@ -42,7 +42,7 @@ export default class App extends React.Component {
         <p>You may also have noticed that the styling has changed. This is due to the 
         addition of bootstrap. The bootstrap css is called specifically from
         the index.html page, but js is injected dynamically.</p>
-        <Button>This is a do nothing react-bootstrap Button</Button>
+        <Button bsStyle="success" bsSize="small" >This is a do nothing react-bootstrap Button</Button>
         </div>
       </div>);
   }

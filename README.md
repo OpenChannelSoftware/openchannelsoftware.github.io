@@ -28,7 +28,9 @@ $ npm install --save-dev babel-cli babel-core babel-loader babel-preset-es2015 b
 
 $ npm install --save-dev babel-plugin-transform-class-properties babel-plugin-transform-decorators-legacy babel-plugin-transform-runtime 
 
-$ npm install --save react react-dom react-bootstrap bootstrap@4.0.0-alpha.6
+$ npm install --save react react-dom react-bootstrap bootstrap@4.0.0-alpha.6 
+
+$ npm install --save axios redux redux-promise r redux-thunk react-redux react-router redux-promise-middleware@4.2.1
 
 $ npm install --save-dev css-loader file-loader postcss-loader react-hot-loader url-loader react-hot-loader
 
@@ -68,6 +70,8 @@ This section sets up the [Reactjs] view framework for displaying content and the
 
 ## Dependencies
 * [Reactjs]
+* [Redux]
+* [Axios]
 * [Bootstrap]
 * [Webpack]
 * [Babel]
@@ -104,3 +108,6 @@ Thank you to the following sites that helped me create the content for this temp
 [Mocha]: https://mochajs.org/
 [Chai]: http://chaijs.com/
 [Mochawesome]: https://www.npmjs.com/package/mochawesome
+[Redux]: http://redux.js.org/
+[Axios]: https://www.npmjs.com/package/axios
+
