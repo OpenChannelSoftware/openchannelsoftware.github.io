@@ -13,15 +13,16 @@
      font-weight: normal;
      padding: 2em;
      background-color: #ffffff;
-
    }
+   code { background-color: #eeeeee;
+   padding: .2em; }
  </style>
 </head>
 <body>
   <h1>Building the JSProjectTemplate (Webpack, Lodash, React, Bootstrap, Babel, D3 Template)</h1><div id="root"></div>
   <div class="section"><h3>Testing with Mocha and Chai</h3>
   <div class="demo"><a href="../mochawesome-report/mochawesome.html">Mocha Test Results</a>
-If this page is not available, run <code> $npm test</code> and it will be created. This test report is created through a plugin called 'mochawesome' and is called in the <code>package.json</code> scripts section.
+If this page is not available, run <code>$ npm test</code> and it will be created. This test report is created through a plugin called 'mochawesome' and is called in the <code>package.json</code> scripts section.
 
   </div>
   </div>
@@ -29,6 +30,7 @@ If this page is not available, run <code> $npm test</code> and it will be create
     <div class="section"><h3>Webpack and Babel</h3>
   <div class="demo">
   <p>Setup webpack and babel build process and npm scripts.</p>
+  <p>After this step, you should be able to run <code>$ npm start</code> and startup the webpack-dev-server locally on port 8080.</p>
   </div>
   </div>
 
