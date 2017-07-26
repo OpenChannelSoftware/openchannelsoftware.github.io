@@ -11,8 +11,7 @@
    .demo {
      font-size: medium;
      font-weight: normal;
-     margin-left: 2em;
-     margin-bottom: 2em;
+     padding: 2em;
      background-color: #ffffff;
 
    }
@@ -21,7 +20,23 @@
 <body>
   <h1>Building the JSProjectTemplate (Webpack, Lodash, React, Bootstrap, Babel, D3 Template)</h1><div id="root"></div>
   <div class="section"><h3>Testing with Mocha and Chai</h3>
-  <div class="demo"><a href="../mochawesome-report/mochawesome.html">Mocha Test Results</a></div>
+  <div class="demo"><a href="../mochawesome-report/mochawesome.html">Mocha Test Results</a>
+If this page is not available, run <code> $npm test</code> and it will be created. This test report is created through a plugin called 'mochawesome' and is called in the <code>package.json</code> scripts section.
+
+  </div>
+  </div>
+
+    <div class="section"><h3>Webpack and Babel</h3>
+  <div class="demo">
+  <p>Setup webpack and babel build process and npm scripts.</p>
+  </div>
+  </div>
+
+      <div class="section"><h3>React and Bootstrap</h3>
+  <div class="demo">
+  <p>The following section will be the root of the react app</p>
+  <div id="react-root"></div>
+  </div>
   </div>
  <script src="bundle.js"></script>
 </body>
