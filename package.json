@@ -1,7 +1,7 @@
 {
-  "name": "jsprojecttemplate",
+  "name": "alertratetest",
   "version": "0.0.1",
-  "description": "This is another in the ever expanding universe of javascript templates/blueprints/scaffolding/yadda yadda.",
+  "description": "test visualization of alertrate data",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -33,9 +33,21 @@
     "axios": "^0.16.2",
     "bootstrap": "^4.0.0-alpha.6",
     "d3": "^4.10.0",
+    "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-faux-dom": "^4.0.3",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-transition-group": "^2.2.0",
+    "reactstrap": "^4.8.0",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-thunk": "^2.2.0",
+    "tether": "^1.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
